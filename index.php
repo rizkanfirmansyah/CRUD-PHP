@@ -21,6 +21,7 @@ $data = mysqli_query($conn, "SELECT * FROM mahasiswa");
 <body>
 
     <h1>Data</h1>
+    <a href="tambah.php">Tambah Data +</a>
     <table border="1">
         <thead>
             <tr style="margin: 30px; padding:30px;">
@@ -48,7 +49,6 @@ $data = mysqli_query($conn, "SELECT * FROM mahasiswa");
         </tbody>
     </table>
 
-    <a href="tambah.php">Tambah Data +</a>
 
 </body>
 
